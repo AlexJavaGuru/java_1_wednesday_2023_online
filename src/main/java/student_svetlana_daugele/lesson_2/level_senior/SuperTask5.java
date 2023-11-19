@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class SuperTask5 {
     public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Let's calculate the knitting tension!");
 
         System.out.println(" Knit the swatch at least 15 cm in width and 15 cm in height.");
