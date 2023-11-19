@@ -9,7 +9,7 @@ public class MultiplicationTable {
         System.out.print("Input a number: ");
         int number = scanner.nextInt();
 
-        int multiplication1 = number * 1;
+        int multiplication1 = number;
         int multiplication2 = number * 2;
         int multiplication3 = number * 3;
         int multiplication4 = number * 4;
