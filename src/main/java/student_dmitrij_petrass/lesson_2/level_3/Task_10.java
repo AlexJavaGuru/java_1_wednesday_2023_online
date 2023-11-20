@@ -8,12 +8,9 @@ public class Task_10 {
 
         Scanner scanner = new Scanner(System.in);
         double radius = scanner.nextDouble();
+        float pie = 3.14f;
 
-        double Radius = 7.5;
-        double Perimeter = 47.12388980384689;
-        double Area = 176.71458676442586;
-
-        System.out.println("Perimeter = " + Perimeter);
-        System.out.println("Area = " + Area);
+        System.out.println("Perimeter = " + 2 * pie * radius);
+        System.out.println("Area = " + pie * (radius * radius));
     }
 }
