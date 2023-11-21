@@ -11,7 +11,7 @@ public class ZA_Task9 {
         String a = String.valueOf(firstNumber);
 
 
-        System.out.println( a +  " x 1 = " + firstNumber * 1);
+        System.out.println( a +  " x 1 = " + firstNumber);
         System.out.println( firstNumber + " x 2 = " + firstNumber * 2);
         System.out.println( a + " x 3 = " +firstNumber * 3);
         System.out.println( a + " x 4 = " +firstNumber * 4);
