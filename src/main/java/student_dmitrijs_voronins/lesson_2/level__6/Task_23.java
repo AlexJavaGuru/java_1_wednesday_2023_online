@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__6;
 
-public class AttentionPlease {
+public class Task_23 {
     public static void main(String[] args) {
         System.out.println("Code outside the method will not compile!");
     }

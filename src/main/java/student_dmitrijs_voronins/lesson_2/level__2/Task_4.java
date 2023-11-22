@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__2;
 
-public class Phone {
+public class Task_4 {
 }
 //Дан код, нужно исправить ошибку компиляции.
 //Для сдачи работы создайте исправленный класс.

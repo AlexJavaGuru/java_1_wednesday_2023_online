@@ -1,8 +1,8 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.Level_1;
 
 import java.util.Scanner;
 
-public class FirstDobleNumber {
+public class Task_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input first number: ");

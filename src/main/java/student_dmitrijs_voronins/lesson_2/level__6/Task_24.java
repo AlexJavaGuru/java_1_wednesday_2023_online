@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__6;
 
-public class NoSleepNoFocus {
+public class Task_24 {
     public static void main(String[] args) {
         System.out.println("I wanna coffe");
         System.out.println("So bad");

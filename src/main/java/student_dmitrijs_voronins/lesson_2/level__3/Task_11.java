@@ -1,8 +1,8 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__3;
 
 import java.util.Scanner;
 
-public class avarage {
+public class Task_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("First number :");

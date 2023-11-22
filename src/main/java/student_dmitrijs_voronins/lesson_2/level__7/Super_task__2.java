@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__7;
 
-public class SumTwoNumbers {
+public class Super_task__2 {
     public static void main(String[] args) {
         int numberOne = 10;
 		int numberTwo = 20;

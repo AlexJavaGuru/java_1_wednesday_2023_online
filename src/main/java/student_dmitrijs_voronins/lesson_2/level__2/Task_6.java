@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__2;
 
-public class Turtle {
+public class Task_6 {
     public static void main(String[] args) {
 
     }

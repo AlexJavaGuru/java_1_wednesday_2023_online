@@ -1,8 +1,8 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__2;
 
 import java.util.Scanner;
 
-public class UserName {
+public class Task_8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); //Create scanner object
         System.out.println("Enter user name");

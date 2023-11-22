@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__7;
 
-public class CorrectDataTypes {
+public class Superr__task_3 {
     public static void main(String[] args) {
 
         float numberOne = 10;

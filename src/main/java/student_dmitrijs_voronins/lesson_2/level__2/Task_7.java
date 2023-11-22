@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__2;
 
-public class LoginService {
+public class Task_7 {
     public static void main(String[] args) {
         System.out.println("You can login!");
     }

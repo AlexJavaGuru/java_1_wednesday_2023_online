@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__5;
 
-public class Text {
+public class Task_15 {
     public static void main(String[] args) {
         System.out.print("text");
     }

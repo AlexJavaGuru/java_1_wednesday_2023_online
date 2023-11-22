@@ -1,8 +1,8 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.Level_1;
 
 import java.util.Scanner;
 
-public class FirstNumberInt {
+public class Task_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

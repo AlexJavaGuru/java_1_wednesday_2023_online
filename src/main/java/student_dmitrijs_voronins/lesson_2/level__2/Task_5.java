@@ -1,6 +1,6 @@
-package student_dmitrijs_voronins;
+package student_dmitrijs_voronins.lesson_2.level__2;
 
-public class BankAccount {
+public class Task_5 {
     public static void main(String[] args) {
 
     }
