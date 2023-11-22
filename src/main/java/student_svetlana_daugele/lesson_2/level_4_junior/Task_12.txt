@@ -1,0 +1,5 @@
+Найдите в интеренете ответ на вопрос:
+Как узнать какая версия JDK установлена на вашем компьютере?
+Для MAC :
+https://www.java.com/ru/download/help/mac_controlpanel.html
+https://www.java.com/ru/download/help/version_manual.html#:~:text=Откройте%20меню%20Пуск.-,Выберите%20Панель%20управления,в%20системе%2C%20включая%20версии%20Java
