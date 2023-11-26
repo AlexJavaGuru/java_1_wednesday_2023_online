@@ -1,0 +1,6 @@
+Найдите в интеренете ответ на вопрос:
+Как узнать какая версия JDK установлена на вашем компьютере?
+
+navigate to terminal
+type java -version in the command prompt
+observe results
