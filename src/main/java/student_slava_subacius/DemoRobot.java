@@ -1,11 +1,11 @@
 package student_slava_subacius;
 
-class demoRobot {
+class DemoRobot {
 
     String name;
     String say;
 
-     public demoRobot (String newName, String newsay) {
+     public DemoRobot(String newName, String newsay) {
         name = newName;
         say = newsay;
     }
@@ -16,6 +16,7 @@ class demoRobot {
 
     public void sayHello() {
         System.out.println("Hello");
+
     }
 }
 
