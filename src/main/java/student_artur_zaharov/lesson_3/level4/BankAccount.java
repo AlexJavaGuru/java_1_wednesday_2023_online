@@ -1,6 +1,6 @@
-package student_artur_zaharov.lesson_3.Level4;
+package student_artur_zaharov.lesson_3.level4;
 
-public class BankAccount {
+class BankAccount {
 
     String ownerFirstName;
     String ownerLastName;

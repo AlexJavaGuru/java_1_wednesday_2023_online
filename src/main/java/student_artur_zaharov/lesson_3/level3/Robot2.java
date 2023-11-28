@@ -1,4 +1,4 @@
-package student_artur_zaharov.lesson_3.Level3;
+package student_artur_zaharov.lesson_3.level3;
 
 class Robot2 {
 

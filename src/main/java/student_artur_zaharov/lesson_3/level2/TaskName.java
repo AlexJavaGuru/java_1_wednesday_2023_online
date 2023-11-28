@@ -1,4 +1,4 @@
-package student_artur_zaharov.lesson_3.Level2;
+package student_artur_zaharov.lesson_3.level2;
 
 public class TaskName {
     public static void main(String[] args) {
