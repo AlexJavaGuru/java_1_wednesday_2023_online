@@ -18,25 +18,32 @@ public class Dog {
     public void voice1() {
         System.out.println("My name is " + name + ". "+ "My age is " + age + " years.");
     }
-    public void voice2() {System.out.println("Woof-woof");
+    public void voice2() {
+        System.out.println("Woof-woof");
     }
 
-    public void happyBirthday() {age++;
+    public void happyBirthday() {
+        age++;
     }
     public int getAge() {
         return age;
     }
-    public void happyBirthday1(){System.out.println("I have a birthday today.");}
-
-public void celebrations (){System.out.println("Now I am " + age + " years old.");
+    public void happyBirthday1(){
+        System.out.println("I have a birthday today.");
     }
-    public void dogsColor(){System.out.println("My color is  " + color + ".");
+
+    public void celebrations (){
+        System.out.println("Now I am " + age + " years old.");
+    }
+    public void dogsColor(){
+        System.out.println("My color is  " + color + ".");
     }
 
     void changeColor(String newColor) {
         this.color = newColor;
     }
     public String getColor() {
+
         return color;
     }
 
