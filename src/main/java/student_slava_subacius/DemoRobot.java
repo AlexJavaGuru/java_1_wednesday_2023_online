@@ -1,25 +1,27 @@
 package student_slava_subacius;
 
 class DemoRobot {
+    public static void main(String[] args) {
 
-    String name;
-    String say;
 
-     public DemoRobot(String newName, String newsay) {
-        name = newName;
-        say = newsay;
-    }
+        Robot robot = new Robot("My name is ROBO", "Hello");
 
-    public void sayYourName() {
-        System.out.println("name");
-    }
+        robot.sayYourName();
+        robot.sayHello();
 
-    public void sayHello() {
+        System.out.println("My name is ROBO");
         System.out.println("Hello");
+        String name = ("Rider");
+        String name1 = ("John");
+        System.out.println(name + "\n" + name1);
+
+        Robot robot1 = new Robot("Rider");
+        Robot robot2 = new Robot("John");
+
+        robot1.sayYourName();
+        robot2.sayYourName();
+
 
     }
+
 }
-
-
-
-
