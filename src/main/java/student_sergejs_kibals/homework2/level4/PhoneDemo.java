@@ -1,6 +1,6 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level4;
 
-public class PhoneDemo {
+class PhoneDemo {
 
     public static void main(String[] args) {
         Phone myPhone = new Phone("Huawei");

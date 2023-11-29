@@ -1,6 +1,6 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level4;
 
-public class CarDemo {
+class CarDemo {
     public static void main(String[] args) {
         Car myCar = new Car ("Nissan");
         String carModel = myCar.getModel();

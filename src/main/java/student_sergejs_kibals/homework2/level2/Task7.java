@@ -1,6 +1,6 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level2;
 
-public class task7 {
+class Task7 {
 
     public static void main(String[] args) {
 

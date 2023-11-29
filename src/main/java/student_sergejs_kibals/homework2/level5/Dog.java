@@ -1,13 +1,15 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level5;
 
 class Dog {
 
     String name;
     int age;
+    String color;
 
-    Dog (String dogsName, int dogsAge){
+    Dog (String dogsName, int dogsAge, String dogsColor){
         this.name = dogsName;
         this.age = dogsAge;
+        this.color = dogsColor;
     }
 
     void voice(){
@@ -26,5 +28,11 @@ class Dog {
     }
     void voice3(){
         System.out.println("Ruff! Now I am " + age + " years old.");
+    }
+    void voice4(){
+        System.out.println("Dog " + name + " is " + age + " years old " + color + " dog.");
+    }
+    void changeColor(String newColor){
+        this.color = newColor;
     }
 }

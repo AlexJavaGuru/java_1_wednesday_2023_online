@@ -1,6 +1,6 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level1;
 
-public class RobotDemo {
+class RobotDemo {
 
     public static void main(String[] args) {
 

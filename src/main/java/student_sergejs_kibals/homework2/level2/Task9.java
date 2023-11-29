@@ -1,8 +1,8 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level2;
 
 import java.util.Scanner;
 
-public class task9 {
+class Task9 {
 
     public static void main(String[] args) {
 

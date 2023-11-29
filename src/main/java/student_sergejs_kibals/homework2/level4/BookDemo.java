@@ -1,6 +1,6 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level4;
 
-public class BookDemo {
+class BookDemo {
 
     public static void main(String[] args) {
         Book myBook = new Book("Principles");

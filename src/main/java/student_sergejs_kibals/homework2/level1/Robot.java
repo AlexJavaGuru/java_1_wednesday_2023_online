@@ -1,4 +1,4 @@
-package student_sergejs_kibals.homework2;
+package student_sergejs_kibals.homework2.level1;
 
 class Robot {
 
