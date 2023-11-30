@@ -1,6 +1,6 @@
-package student_artur_zaharov.lesson_3.Level4;
+package student_artur_zaharov.lesson_3.level4;
 
-public class Phone {
+class Phone {
     String model;
 
         Phone(String newModel) {

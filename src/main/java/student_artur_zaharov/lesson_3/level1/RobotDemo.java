@@ -1,4 +1,4 @@
-package student_artur_zaharov.lesson_3.Level1;
+package student_artur_zaharov.lesson_3.level1;
 
 class RobotDemo {
     public static void main(String[] args) {
