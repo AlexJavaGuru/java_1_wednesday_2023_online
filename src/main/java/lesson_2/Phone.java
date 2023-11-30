@@ -1,8 +1,8 @@
 package lesson_2;
 
-public class class_phone {
+public class Phone {
     public static void main(String[] args) {
-        String name = ("class phone ") ;
+        String name = ("Phone ") ;
         System.out.println(name);
 
 
