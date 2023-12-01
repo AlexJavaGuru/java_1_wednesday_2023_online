@@ -15,7 +15,7 @@ public class ArithmeticMean {
         int number3 = scanner.nextInt();
         double midresult = number1 + number2 + number3;
         double result = midresult /3;
-        System.out.println("Arithmetic mean of numbers " + number1 + " , " + number2 + "and  "
+        System.out.println("Arithmetic mean of numbers " + number1 + ", " + number2 + " and  "
         +number3 + " is " + result);
 
     }
