@@ -1,4 +1,4 @@
-What are primitive data types?
+ What are primitive data types?
 What are the primitive data types supported by Java programming language?
 
 Primitive data types are data types that are predefined
