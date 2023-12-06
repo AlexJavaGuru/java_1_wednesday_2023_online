@@ -1,11 +1,12 @@
 package student_svetlana_daugele.lesson_4.level_6_middle;
 
 class Stock {
-    String companyName ;
+    String companyName;
     int actualPrice;
-   int minPrice;
+    int minPrice;
     int maxPrice;
-     int newPrice;
+    int newPrice;
+
     public Stock(String companyName, int actualPrice) {
         this.actualPrice = actualPrice;
         this.companyName = companyName;
@@ -13,6 +14,7 @@ class Stock {
         this.maxPrice = actualPrice;
         this.newPrice = actualPrice;
     }
+
     public int updatedPrice(int newPrice) {
         this.actualPrice = newPrice;
         this.newPrice = newPrice;
@@ -25,14 +27,19 @@ class Stock {
         return newPrice;
     }
 
-    String getPriceInformation(){
+    String getPriceInformation() {
         return "Company =  \"" + companyName + "\" , " +
-               " Current Price = " + newPrice + " , " +
+                " Current Price = " + newPrice + " , " +
                 " Min Price = " + minPrice + " , " +
                 " Max Price = " + maxPrice;
-
     }
 
+    int getMaxPrice(int newPrice) {
+        if (newPrice > this.maxPrice) {
+            this.maxPrice = newPrice;
+        }
+        return maxPrice;
+    }
 }
 
 //public void updatePrice(int newPrice) {
