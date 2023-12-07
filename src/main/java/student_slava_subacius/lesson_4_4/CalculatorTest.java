@@ -11,6 +11,7 @@ public class CalculatorTest {
         calculatorTest.maxOfTwoNumbersTest();
         testFindMaxOfThree();
     }
+
     public void sumTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -24,8 +25,9 @@ public class CalculatorTest {
             System.out.println("Sum test = FAIL");
         }
     }
+
     public void subtractTest() {
-        int firstNumber =10;
+        int firstNumber = 10;
         int secondNumber = 5;
         int expectedResult = 5;
         Calculator calculator = new Calculator();
@@ -84,6 +86,7 @@ public class CalculatorTest {
             System.out.println("isEven test with odd number = FAIL");
         }
     }
+
     public void maxOfTwoNumbersTest() {
         Calculator calculator = new Calculator();
 

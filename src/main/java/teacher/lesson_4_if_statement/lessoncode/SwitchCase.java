@@ -3,7 +3,7 @@ package teacher.lesson_4_if_statement.lessoncode;
 public class SwitchCase {
 
     public static void main(String[] args) {
-        String drink = "Alex";
+        String drink = "coffee";
         switch (drink) {
             case "coffee":
                 System.out.println("I would go for Java!");

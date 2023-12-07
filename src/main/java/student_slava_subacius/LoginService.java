@@ -7,8 +7,9 @@ public class LoginService {
 
         Scanner scanner = new Scanner(System.in);
         int num = 30;
+
         System.out.println(num);
-       String LoginService = ("You can login!");
+        String LoginService = ("You can login!");
         System.out.println("You can login!");
 
 
