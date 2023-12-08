@@ -6,9 +6,7 @@ import java.util.Random;
 class Task_29 {
     public static void main(String[] args) {
 
-
         int[] numbers = new int[6];
-        int number;
 
         Random random = new Random();
         for (int i = 0; i < numbers.length; i++) {

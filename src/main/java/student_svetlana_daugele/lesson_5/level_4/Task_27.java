@@ -13,11 +13,13 @@ class Task_27 {
 
         Random random = new Random();       //заполните массив случайными числами
         for (int i = 0; i < numbers.length; i++) {
+
             numbers[i] = random.nextInt(100);
         }
+
         System.out.println(Arrays.toString(numbers)); //распечатайте на консоль все элементы массива.
 
-int maxNumber = numbers[0];                             //найдите наибольшее число в массиве
+        int maxNumber = numbers[0];                             //найдите наибольшее число в массиве
         for (int i = 0; i < numbers.length; i++) {
             if (numbers [i] > maxNumber){
                 maxNumber = numbers [i];

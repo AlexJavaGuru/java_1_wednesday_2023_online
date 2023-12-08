@@ -8,7 +8,6 @@ public class Task_30 {
 
 
         int[] numbers = new int[6];
-        int number;
 
         Random random = new Random();
         for (int i = 0; i < numbers.length; i++) {

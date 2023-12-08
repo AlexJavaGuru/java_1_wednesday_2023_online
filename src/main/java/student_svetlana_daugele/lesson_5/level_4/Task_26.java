@@ -13,7 +13,7 @@ class Task_26 {
         int arrayLength = scanner.nextInt();
 
         int[] numbers = new int[arrayLength];     //создайте массив указанной пользователем длины
-        int number;
+
 
             Random random = new Random();       //заполните массив случайными числами
             for (int i = 0; i < numbers.length; i++) {
