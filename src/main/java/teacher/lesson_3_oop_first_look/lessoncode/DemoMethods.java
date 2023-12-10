@@ -12,7 +12,9 @@ public class DemoMethods {
         System.out.println(bobik.isHungry());
 
         System.out.println();
-        bobik.eat("Meat");
+        if (bobik.isHungry()) {
+            bobik.eat("Meat");
+        }
         sharik.eat("Banana");
 
         System.out.println(sharik.isHungry());
