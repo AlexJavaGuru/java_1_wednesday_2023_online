@@ -6,4 +6,7 @@ public class HelloWorld {
         System.out.println("Hello world!");
 
     }
+
+    public static class ArrayUtillTest {
+    }
 }
