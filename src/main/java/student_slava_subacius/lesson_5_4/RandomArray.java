@@ -12,12 +12,9 @@ public class RandomArray {
         Random random = new Random();
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = random.nextInt(50);
+            System.out.println("Array values" + i + ": " + myArray[i]);
 
-            System.out.println("Array values:");
-            for (int value : myArray) {
-                System.out.print(value + " ");
 
-            }
         }
     }
 }
