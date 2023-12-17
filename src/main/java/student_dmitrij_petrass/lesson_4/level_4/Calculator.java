@@ -20,14 +20,13 @@ class Calculator {
     }
 
     public int maxOfThreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
-        if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+        if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
             return firstNumber;
-        } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+        } else if (secondNumber >= firstNumber && secondNumber > thirdNumber) {
             return secondNumber;
-        } else if (thirdNumber > firstNumber && thirdNumber > secondNumber) {
+        } else {
             return thirdNumber;
         }
-        return firstNumber;
     }
 
 
