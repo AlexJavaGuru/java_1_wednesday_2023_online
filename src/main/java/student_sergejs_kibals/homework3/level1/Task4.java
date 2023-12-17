@@ -2,7 +2,7 @@ package student_sergejs_kibals.homework3.level1;
 
 import java.util.Scanner;
 
-public class Task4 {
+class Task4 {
 
     public static void main(String[] args) {
 
@@ -11,12 +11,10 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-        if (number > 0) {
-            System.out.println("Your number is positive!");
-        } else if (number < 0) {
-            System.out.println("Your number is negative!");
+        if (number % 2 == 0) {
+            System.out.println("Entered number is Even!");
         } else {
-            System.out.println("The number 0 is neither positive nor negative!");
+            System.out.println("Entered number is Odd!");
         }
     }
 }
