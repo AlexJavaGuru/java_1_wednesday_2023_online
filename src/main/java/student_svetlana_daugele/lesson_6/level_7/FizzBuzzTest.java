@@ -13,7 +13,7 @@ class FizzBuzzTest {
     private void fizzBuzzDetectTest(String expectedResult, int number) {
         FizzBuzz fizzBuzz =  new FizzBuzz();
         String result = fizzBuzz.detect(number);
-        if (expectedResult == result){
+        if (expectedResult.equals(result)){
             System.out.println( expectedResult + " test is ok");
 
             }
