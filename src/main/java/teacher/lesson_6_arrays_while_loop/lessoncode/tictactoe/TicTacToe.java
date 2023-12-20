@@ -1,6 +1,6 @@
 package teacher.lesson_6_arrays_while_loop.lessoncode.tictactoe;
 
-public class TicTacToe {
+class TicTacToe {
 
     /*
     -1  1  1
@@ -10,22 +10,27 @@ public class TicTacToe {
      playerToCheck = 1
      */
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
+        boolean isWinForHorizontals = true;
+
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field.length; j++) {
                 if (field[i][j] != playerToCheck) {
+                    isWinForHorizontals = false;
                     break;
                 } else if (j == field.length - 1) {
-                    return true;
+                    isWinForHorizontals = true;
+                    return isWinForHorizontals;
                 }
             }
         }
-        return false;
+        return isWinForHorizontals;
     }
 
-    public boolean isWinPositionForDiagonals(int[][] field, int playerToCheck) {
+    boolean isWinPositionForDiagonals(int[][] field, int playerToCheck) {
         return isWinForDiagonalsTopToBottom(field, playerToCheck) ||
                 isWinForDiagonalsBottomToTop(field, playerToCheck);
     }
+
 
         /*
     -1  1  1
@@ -39,19 +44,37 @@ public class TicTacToe {
      playerToCheck = 1
      */
 
-    public boolean isWinForDiagonalsTopToBottom(int[][] field, int playerToCheck) {
+    private boolean isWinForDiagonalsTopToBottom(int[][] field, int playerToCheck) {
         for (int i = 0; i < field.length; i++) {
             if (field[i][i] != playerToCheck) {
-                //TO-DO
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
-    public boolean isWinForDiagonalsBottomToTop(int[][] field, int playerToCheck) {
-        //TO-DO
-        return false;
+
+        /*
+    -1  1  1
+     1 -1 -1
+     0 -1  0
+
+        field [0][2]; i = 0
+        field [1][1]; i = 1
+        field [2][0]; i = 2
+
+     playerToCheck = 1
+     */
+
+    private boolean isWinForDiagonalsBottomToTop(int[][] field, int playerToCheck) {
+        for (int i = 0; i < field.length; i++) {
+            if (field[i][field.length - 1 - i] != playerToCheck) {
+                return false;
+            }
+        }
+        return true;
     }
+
 }
 
 
