@@ -12,7 +12,7 @@ public class ArrayUtil {
     public void fillArrayWithRandomNumbers(int[] array) {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(100);
+            array[i] = random.nextInt(100) - 50;
         }
     }
 
