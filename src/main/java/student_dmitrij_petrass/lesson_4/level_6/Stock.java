@@ -2,13 +2,13 @@ package student_dmitrij_petrass.lesson_4.level_6;
 
 
 class Stock {
-    private String companyName;
+    private String productName;
     private Double currentPrice;
     private Double minPrice;
     private Double maxPrice;
 
-    public Stock(String companyName, double initialPrice) {
-        this.companyName = companyName;
+    public Stock(String productName, double initialPrice) {
+        this.productName = productName;
         this.currentPrice = initialPrice;
         this.minPrice = initialPrice;
         this.maxPrice = initialPrice;
@@ -24,8 +24,12 @@ class Stock {
         }
     }
 
+    public Double getMaxPrice() {
+        return maxPrice;
+    }
+
     public String getPriceInformation() {
-        return "Company name = " + companyName + ", Current price = " + currentPrice + ", MIN Price = " + minPrice + ", MAX Price = " + maxPrice;
+        return "Company name = " + productName + ", Current price = " + currentPrice + ", MIN Price = " + minPrice + ", MAX Price = " + maxPrice;
     }
 }
 

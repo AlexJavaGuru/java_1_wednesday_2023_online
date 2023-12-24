@@ -3,27 +3,44 @@ package student_dmitrij_petrass.lesson_4.level_7;
 public class FizzBuzzTest {
 
     public static void main(String[] args) {
-
-        testNumberDivOnThreeAndFive();
-
+        FizzBuzzTest fizzBuzzTest = new FizzBuzzTest();
+        fizzBuzzTest.fizz();
+        fizzBuzzTest.buzz();
+        fizzBuzzTest.fizzBuzz();
     }
 
-    public static void testNumberDivOnThreeAndFive() {
+    private void fizz() {
+        String expectedResult = "Fizz";
         FizzBuzz fizzBuzz = new FizzBuzz();
+        String realResult = fizzBuzz.detect(3);
 
-        String expectedResult = "FizzBuzz";
-        String actualResult = fizzBuzz.detect(30);
+        if (realResult.equals(expectedResult)){
+            System.out.println("FIZZ test = has passed!");
+        } else {
+            System.out.println("FIZZ test = FAIL");
+        }
+    }
+    private void buzz() {
+        String expectedResult = "Buzz";
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String realResult = fizzBuzz.detect(10);
 
-        check(expectedResult, actualResult, "Test 1: number divides on number 3 and 5");
-
+        if (realResult.equals(expectedResult)){
+            System.out.println("FIZZ test = has passed!");
+        } else {
+            System.out.println("FIZZ test = FAIL");
+        }
     }
 
+    private void fizzBuzz() {
+        String expectedResult = "Buzz";
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String realResult = fizzBuzz.detect(30);
 
-    private static void check(String expectedResult, String actualResult, String testName) {
-        if (expectedResult.equals(actualResult)) {
-            System.out.println(testName + " has passed!");
+        if (realResult.equals(expectedResult)){
+            System.out.println("FIZZ test = has passed!");
         } else {
-            System.out.println(testName + " Failed!");
+            System.out.println("FIZZ test = FAIL");
         }
     }
 }

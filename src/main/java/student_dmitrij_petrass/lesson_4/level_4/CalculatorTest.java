@@ -15,9 +15,9 @@ class CalculatorTest {
         calculatorTest.testSecondNumberIsGreaterThenFirstAndThird();
         calculatorTest.testThirdNumberIsGreaterThenFirstAndSecond();
         calculatorTest.testFirstAndSecondIsEqualAndGreaterThenThird();
-        //calculatorTest.testSecondAndThirdIsEqualAndGreaterThenFirst();
-        //calculatorTest.testFirstAndThirdIsEqualAndGreaterThenSecond();
-        //calculatorTest.testThreeNumberAreEqual();
+        calculatorTest.testSecondAndThirdIsEqualAndGreaterThenFirst();
+        calculatorTest.testFirstAndThirdIsEqualAndGreaterThenSecond();
+        calculatorTest.testThreeNumberAreEqual();
     }
 
     public void testSum() {
@@ -61,63 +61,148 @@ class CalculatorTest {
     }
 
     public void testFirstNumberIsGreater() {
-        Calculator calculator = new Calculator();
+        int firstNumber = 10;
+        int secondNumber = 5;
         int expectedResult = 10;
-        int actualResult = calculator.maxOfTwoNumbers(5, 10);
-
-        check(expectedResult, actualResult, "Test 6: First number is Greater then second");
-
+        Calculator calculator = new Calculator();
+        int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
+            System.out.println("First number is greater then second number TEST = has passed!");
+        } else {
+            System.out.println("First number is greater then second number TEST = FALSE");
         }
+    }
 
     public void testSecondNumberIsGreater() {
-        Calculator calculator = new Calculator();
+        int firstNumber = 5;
+        int secondNumber = 10;
         int expectedResult = 10;
-        int actualResult = calculator.maxOfTwoNumbers(10, 5);
-
-        check(expectedResult, actualResult, "Test 7: Second number is Greater then first");
-
-    }
-    public void testTwoNumbersAreEqual() {
         Calculator calculator = new Calculator();
-        int expectedResult = 5;
-        int actualResult = calculator.maxOfTwoNumbers(5, 5);
+        int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
+            System.out.println("Second number is greater then first number TEST = has passed!");
+        } else {
+            System.out.println("Second number is greater then first number TEST = FALSE");
+        }
+    }
 
-        check(expectedResult, actualResult, "Test 8: Two numbers are equal");
-
+    public void testTwoNumbersAreEqual() {
+        int firstNumber = 10;
+        int secondNumber = 10;
+        int expectedResult = 10;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
+            System.out.println("Two numbers ares equal TEST = has passed!");
+        } else {
+            System.out.println("Two numbers ares equal TEST = FALSE");
+        }
     }
 
     public void testFirstNumberIsGreaterThenSecondAndThird() {
+        int firstNumber = 15;
+        int secondNumber = 10;
+        int thirdNumber = 5;
+        int expectedResult = 15;
         Calculator calculator = new Calculator();
-        int expectedResult = 100;
-        int actualResult = calculator.maxOfThreeNumbers(100,20,30);
+        int realResult = calculator.maxOfThreeNumbers(firstNumber,secondNumber,thirdNumber);
+        if (realResult == expectedResult) {
+            System.out.println("First number is greater then second and third number TEST = has passed!");
+        } else {
+            System.out.println("First number is greater then second and third number TEST = FALSE");
 
-        check(expectedResult, actualResult, "Test 9: First number is greater then second and third");
+        }
     }
 
     public void testSecondNumberIsGreaterThenFirstAndThird() {
+        int firstNumber = 10;
+        int secondNumber = 15;
+        int thirdNumber = 5;
+        int expectedResult = 15;
         Calculator calculator = new Calculator();
-        int expectedResult = 100;
-        int actualResult = calculator.maxOfThreeNumbers(20,100,30);
+        int realResult = calculator.maxOfThreeNumbers(firstNumber,secondNumber,thirdNumber);
+        if (realResult == expectedResult) {
+            System.out.println("Second number is greater then first and third number TEST = has passed!");
+        } else {
+            System.out.println("Second number is greater then first and third number TEST = FALSE");
 
-        check(expectedResult, actualResult, "Test 10: Second number is greater then first and third");
+        }
     }
 
     public void testThirdNumberIsGreaterThenFirstAndSecond() {
+        int firstNumber = 10;
+        int secondNumber = 5;
+        int thirdNumber = 15;
+        int expectedResult = 15;
         Calculator calculator = new Calculator();
-        int expectedResult = 100;
-        int actualResult = calculator.maxOfThreeNumbers(20,30, 100);
+        int realResult = calculator.maxOfThreeNumbers(firstNumber,secondNumber,thirdNumber);
+        if (realResult == expectedResult) {
+            System.out.println("Third number is greater then first and second number TEST = has passed!");
+        } else {
+            System.out.println("Third number is greater then first and second number TEST = FALSE");
 
-        check(expectedResult, actualResult, "Test 11: Third number is greater then first and second");
+        }
     }
 
     public void testFirstAndSecondIsEqualAndGreaterThenThird() {
+        int firstNumber = 10;
+        int secondNumber = 10;
+        int thirdNumber = 5;
+        int expectedResult = 10;
         Calculator calculator = new Calculator();
-        int expectedResult = 40;
-        int actualResult = calculator.maxOfThreeNumbers(40,40, 20);
+        int realResult = calculator.maxOfThreeNumbers(firstNumber,secondNumber,thirdNumber);
+        if (realResult == expectedResult) {
+            System.out.println("First and second number is equal and greater then third number TEST = has passed!");
+        } else {
+            System.out.println("First and second number is equal and greater then third number TEST = FALSE");
 
-        check(expectedResult, actualResult, "Test 12: First and second number is equal and greater third number");
+        }
     }
 
+    public void testSecondAndThirdIsEqualAndGreaterThenFirst() {
+        int firstNumber = 5;
+        int secondNumber = 10;
+        int thirdNumber = 10;
+        int expectedResult = 10;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.maxOfThreeNumbers(firstNumber,secondNumber,thirdNumber);
+        if (realResult == expectedResult) {
+            System.out.println("Second and third number is equal and greater then first number TEST = has passed!");
+        } else {
+            System.out.println("Second and third number is equal and greater then first number TEST = FALSE");
+
+        }
+    }
+
+    public void testFirstAndThirdIsEqualAndGreaterThenSecond() {
+        int firstNumber = 10;
+        int secondNumber = 5;
+        int thirdNumber = 10;
+        int expectedResult = 10;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.maxOfThreeNumbers(firstNumber,secondNumber,thirdNumber);
+        if (realResult == expectedResult) {
+            System.out.println("First and third number is equal and greater then second number TEST = has passed!");
+        } else {
+            System.out.println("First and third number is equal and greater then second number TEST = FALSE");
+
+        }
+    }
+
+    public void testThreeNumberAreEqual() {
+        int firstNumber = 5;
+        int secondNumber = 5;
+        int thirdNumber = 5;
+        int expectedResult = 5;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.maxOfThreeNumbers(firstNumber,secondNumber,thirdNumber);
+        if (realResult == expectedResult) {
+            System.out.println("Three numbers are equal TEST = has passed!");
+        } else {
+            System.out.println("Three numbers are equal TEST = FALSE");
+
+        }
+    }
 
 
     private void check(int expectedResult, int actualResult, String testName) {
