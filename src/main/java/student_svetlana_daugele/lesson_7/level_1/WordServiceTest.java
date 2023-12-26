@@ -1,7 +1,6 @@
 package student_svetlana_daugele.lesson_7.level_1;
 
 class WordServiceTest {
-    private String myResult;
 
     public static void main(String[] args) {
         WordServiceTest wordServiceTest = new WordServiceTest();
