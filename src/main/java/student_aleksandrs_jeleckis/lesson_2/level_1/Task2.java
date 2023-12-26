@@ -1,7 +1,7 @@
 package student_aleksandrs_jeleckis.lesson_2.level_1;
 
 import java.util.Scanner;
-public class Task2
+ class Task2
 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
