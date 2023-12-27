@@ -6,8 +6,7 @@ class FizzBuzzDemo {
     public static void main(String[] args) {
 
     FizzBuzz fizzBuzz = new FizzBuzz();
-
-    String detect = fizzBuzz.detect(5);
+    fizzBuzz.detect(5);
 
 
 

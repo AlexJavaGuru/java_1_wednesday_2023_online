@@ -28,5 +28,4 @@ class WordService {
         return mostFrequentWord;
     }
 
-
 }
