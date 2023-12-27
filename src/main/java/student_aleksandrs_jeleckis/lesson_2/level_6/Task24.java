@@ -1,6 +1,6 @@
 package student_aleksandrs_jeleckis.lesson_2.level_6;
 
-public class Task24 { }
+ class Task24 { }
 
 class NoSleepNoFocus {
     public static void main(String[] args) {

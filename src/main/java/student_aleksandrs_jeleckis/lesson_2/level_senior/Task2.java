@@ -1,6 +1,6 @@
 package student_aleksandrs_jeleckis.lesson_2.level_senior;
 
-public class Task2 {}
+ class Task2 {}
 class SumTwoNumbers {
     public static void main(String[] args) {
 
