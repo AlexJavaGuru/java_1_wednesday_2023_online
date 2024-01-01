@@ -1,6 +1,6 @@
 package student_aleksandrs_jeleckis.lesson_2.level_senior;
 
-public class Task3 {}
+ class Task3 {}
 class CorrectDataTypes {
     public static void main(String[] args) {
 

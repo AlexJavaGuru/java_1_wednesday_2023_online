@@ -1,6 +1,6 @@
 package student_aleksandrs_jeleckis.lesson_2.level_5;
 
-public class Task18 {}
+ class Task18 {}
 
     class SizeMatters {
         public static void main(String[] args) {
