@@ -1,0 +1,25 @@
+Является ли следующий интерфейс функциональным?
+
+interface ProductDatabase {
+
+    void save(Product product);
+
+    Product findByTitle(String productTitle);
+
+}
+
+ Ответ: нет, не является, так как содержит 2 абстрактных метода.
+
+class Product {
+
+    private String title;
+
+    public Product(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+}
