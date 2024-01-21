@@ -1,4 +1,4 @@
-package student_artur_zaharov.lesson_6.level_3;
+package student_artur_zaharov.lesson_6.level_3_4;
 
 class ArrayService {
 
