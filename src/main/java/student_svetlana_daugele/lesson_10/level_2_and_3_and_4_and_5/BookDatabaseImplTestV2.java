@@ -2,9 +2,10 @@ package student_svetlana_daugele.lesson_10.level_2_and_3_and_4_and_5;
 
 import java.util.*;
 
-class BookDatabaseImplTest {
+class BookDatabaseImplTestV2 {
+
     public static void main(String[] args) {
-      BookDatabaseImplTest testing = new BookDatabaseImplTest();
+      BookDatabaseImplTestV2 testing = new BookDatabaseImplTestV2();
         testing.testDeleteBook1();
         testing.testDeleteBook2();
         testing.testDeleteBook3();
