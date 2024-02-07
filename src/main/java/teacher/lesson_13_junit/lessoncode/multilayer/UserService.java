@@ -15,7 +15,7 @@ public class UserService {
             return false;
         }
 
-        User user = new User(userId * 10, name);
+        User user = new User(userId, name);
         boolean result = dataBase.add(user);
         if (result) {
             System.out.println("User was added with userId: " + userId + ", name: " + name);
