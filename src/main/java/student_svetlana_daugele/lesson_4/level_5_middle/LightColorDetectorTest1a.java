@@ -1,8 +1,8 @@
 package student_svetlana_daugele.lesson_4.level_5_middle;
 
-class LightColorDetectorTest {
+class LightColorDetectorTest1a {
     public static void main(String[] args) {
-        LightColorDetectorTest lightColorDetectorTest = new LightColorDetectorTest();
+        LightColorDetectorTest1a lightColorDetectorTest = new LightColorDetectorTest1a();
         lightColorDetectorTest.testViolet();
         lightColorDetectorTest.testBlue();
         lightColorDetectorTest.testGreen();
@@ -95,11 +95,11 @@ class LightColorDetectorTest {
 
 /*
 Написать тестовые сценарии для класса LightColorDetector
-в классе LightColorDetectorTest. Тестовые сценарии должны
+в классе LightColorDetectorTest1a. Тестовые сценарии должны
 покрывать все возможные варианты.
 
 public static void main(String[] args) {
-		LightColorDetectorTest lightColorDetector = new LightColorDetectorTest();
+		LightColorDetectorTest1a lightColorDetector = new LightColorDetectorTest1a();
 		lightColorDetector.testViolet(405);
 		lightColorDetector.testBlue(475);
 		lightColorDetector.testGreen(505);
