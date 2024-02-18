@@ -1,0 +1,13 @@
+java.lang.Object
+
+    java.util.AbstractCollection<E>
+        java.util.AbstractList<E>
+            java.util.ArrayList<E>
+
+            Класс ArrayList из пакета java.util в Java не имеет прямых наследников.
+            Вместо этого, он реализует интерфейс List, который является частью иерархии
+            интерфейсов коллекций.
+
+            Таким образом, класс ArrayList расширяет абстрактный класс AbstractList,
+             который, в свою очередь, расширяет абстрактный класс AbstractCollection.
+             AbstractCollection в свою очередь является подклассом класса Object.
